@@ -12,8 +12,6 @@ const Stories = (props) => {
       <div className='stories-grid'>
         {
           props.stories.map( (story, index) => {
-            // INSTEAD OF returning the div below, return a Story component
-            // Be sure to pass down the correct props!
             return (<Story key={story.title} story={story}/>)
           })
         }

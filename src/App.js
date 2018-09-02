@@ -49,8 +49,7 @@ const App = () => {
                 stories={stories} />
       <Stories  storiesTitle="Pop Culture"
                 stories={stories} />
-
-      {/* add a Footer Component (you will need to create this component in the provided Footer.js file) */}
+      <Footer />
     </div>
   );
 }
