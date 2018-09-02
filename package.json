@@ -5,6 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
+// <<<<<<< HEAD
+// =======
+
+// >>>>>>> a3d9a0ba341fa677fda0275b7ecc00cf4c9a5bd6
     "build": "./node_modules/webpack/bin/webpack.js",
     "test": "jest",
     "eslint": "./node_modules/eslint/bin/eslint.js ./lib/*.js"
