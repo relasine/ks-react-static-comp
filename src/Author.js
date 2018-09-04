@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './author.css'
-// Create an Author component
 
 const Author = (props) => {
-  console.log(props)
 
   return (
     <div className='author-info'>
