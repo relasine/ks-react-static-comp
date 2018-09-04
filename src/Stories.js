@@ -11,7 +11,7 @@ const Stories = (props) => {
       </div>
       <div className='stories-grid'>
         {
-          props.stories.map( (story, index) => {
+          props.stories.map( (story) => {
             return (<Story key={story.title} story={story}/>)
           })
         }

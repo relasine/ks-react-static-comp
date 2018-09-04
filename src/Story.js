@@ -1,11 +1,9 @@
-
 import React from 'react';
 import Button from './Button';
 import './Story.css';
 import Author from './Author';
 
 const Story = (props) => {
-  console.log(props)
   return (
     <div className='Story'>
       <img src={props.story.img} />
